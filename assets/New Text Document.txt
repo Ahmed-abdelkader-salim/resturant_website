@@ -1,0 +1,16 @@
+
+## my page contains
+
+1- home page
+
+2-About us page
+
+3-menu page
+
+4-Reservation page
+
+5-News and offers page
+
+6-Services page
+
+7-contact page

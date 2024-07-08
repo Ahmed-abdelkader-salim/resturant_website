@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Checkout Page</title>
+<link rel="stylesheet" href="./assets/css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    <!-- header start -->
+    <header>
+        <!-- Logo -->
+        <a href="index.html">
+            <img src="./assets/img/logo.png" alt="logo">
+        </a>
+        <nav class="navbar">
+            <a href="index.html" class="active">home</a>
+            <a href="about.html">about</a>
+            <a href="menu.html">menu</a>
+            <a href="reservation.html">reservation</a>
+            <a href="news.html">news</a>
+            <a href="services.html">services</a>
+            <a href="contact.html">contact</a>
+        </nav>
+        <div class="icons">
+            <a href="cart.html"><i class="fa fa-shopping-bag"></i></a>
+            <!-- Menu icon -->
+            <i class="fa fa-bars" id="menu-icon"></i>
+        </div>
+    </header>
+    <!-- header end -->
+    
+
+
+    <!-- page-breadcrumb start -->
+    <div class="page-breadcrumb" id="page-breadcrumb"  style="background-image: url('./assets/img/cart.jpg');">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1>#Checkout</h1>
+                    <span><a href="index.html">Home</a> / Checkout
+                    </span>
+                </div>
+            </div>
+            
+        </div>
+
+    </div>
+    <!-- page-breadcrumb end -->
+    <!-- checkout section start -->
+        <section class="checkout" id="checkout">
+            <div class="row">
+        
+                    <div class="col-75">
+                        <div class="checkout-container">
+                            <form action="">
+                                <div class="row">
+                                    <div class="col-50">
+                                        <h3>Billing Address</h3>
+                                        <label for=""><i class="fa fa-1x fa-user"></i> Full Name</label>
+                                        <input type="text" placeholder="Ahmed">
+                                        <label for=""><i class="fa fa-envelope"></i> Email</label>
+                                        <input type="text" placeholder="example@gmail.com">
+                                        <label for=""><i class="fa fa-address-card"></i> Address</label>
+                                        <input type="text" placeholder="22, Giza">
+                                        <label for=""><i class="fa fa-city"></i> City</label>
+                                        <input type="text" placeholder="cairo">
+        
+                                        <div class="row">
+                                            <div class="col-50">
+                                                <label for="">State</label>
+                                                <input type="text" placeholder="Mh">
+                                            </div>
+                                            <div class="col-50">
+                                                <label for="">ZipCode</label>
+                                                <input type="text" placeholder="33322">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-50">
+                                        <h3>Payment</h3>
+                                        <label for="fname">Accepted Cards</label>
+                                        <div class="icon-container">
+                                            <i class="fab fa-cc-visa" style="color:navy;"></i>
+                                            <i class="fab fa-cc-amex" style="color:blue;"></i>
+                                            <i class="fab fa-cc-mastercard" style="color:red;"></i>
+                                            <i class="fab fa-cc-discover" style="color:orange;"></i>
+                                        </div>
+                                        <label >Name on Card</label>
+                                        <input type="text" placeholder="Faraz">
+                                        <label >Credit card number</label>
+                                        <input type="text"  placeholder="1111-2222-3333-4444">
+                                        <label >Exp Month</label>
+                                        <input type="text" placeholder="December">
+                                        <div class="row">
+                                            <div class="col-50">
+                                                <label for="">Exp Year</label>
+                                                <input type="text" placeholder="2030">
+                                            </div>
+                                            <div class="col-50">
+                                                <label for="">CVV</label>
+                                                <input type="text" placeholder="123">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <label for="Direct bank transfer"><input type="radio" value=" Direct bank transfer">  Direct bank transfer</label><br>
+                                
+                                <label for="Direct bank transfer"><input type="radio" value=" Direct bank transfer">  Cash on delivery</label><br>
+                                
+                                <label for="Direct bank transfer"><input type="radio" value=" Direct bank transfer">  Check payments</label><br>
+                                <label>
+                                    <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
+                                </label>
+                                <input type="submit" value="Place Order" class="btn">
+                            </form>
+                        </div>
+                    </div>
+                <div class="col-25">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Product</th>
+                                <th>Subtotal</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>drink</td>
+                                <td>$44</td> 
+                            </tr>
+                            <tr>
+                                <td>food</td>
+                                <td>$33</td> 
+                            </tr>
+                            <tr>
+                                <td>Chess</td>
+                                <td>$224</td> 
+                            </tr>
+                            <tr>
+                                <td><strong>Total</strong></td>
+                                <td><strong>$443</strong></td> 
+                            </tr>
+                        </tbody>
+                    </table>
+                    <form action="">
+                     
+                    </form>
+                </div>
+        
+            </div>
+        </section>
+    <!-- checkout section end -->
+
+        <!-- footer Start -->
+        <footer class="bg-f">
+            <div class="footer">
+            
+                    <div class="row">
+                        <div class="col">
+                            <h3>About Us</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Ab reprehenderit maiores quaerat corporis mollitia tempore ratione ducimus excepturi
+                                nisi animi tenetur vero, necessitatibus
+                                provident porro consequatur aperiam commodi error asperiores.
+                            </p>
+                        </div>
+                        <div class="col">
+                            <h3>OPENING HOURS</h3>
+                            <p>
+                                <span>Monday : </span>Closed
+                            </p>
+                            <p>
+                                <span>Tue-Wed : </span>9:Am - 10PM
+                            </p>
+                            <p>
+                                <span>Thu-Fri : </span>9:Am - 10PM
+                            </p>
+                            <p>
+                                <span>Sat-Sun : </span>5:PM - 10PM 
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <h3>CONTACT INFORMATION</h3>
+                            <p>
+                                Ipsum Street, Lorem Tower, MO, Columbia, 508000
+                            </p>
+                            <p>+01 127-255-2234</p>
+                            <p>example@gmail.com</p>
+                        </div>
+                        <div class="col">
+                            <h3>subscribe</h3>
+                            <div class="form">
+                                <input type="email" name="" id="" placeholder="Email Address">
+                                <button type="submit" class="submit">subscribe</button>
+                            </div>
+                            <div class="social-icon">
+                                <a href="#"><i class="fa fa-facebook-f"></i></a>
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                                <a href="#"><i class="fa fa-linkedin"></i></a>
+                                <a href="#"><i class="fa fa-google"></i></a>
+                                <a href="#"><i class="fa fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="copyright">
+                <div class="row">
+                    <div class="col">
+                        <p class="company-name">
+                            All Rights Reserved. © 2018
+
+                            <a href="#">Yamifood Restaurant </a>
+
+                            Design By :
+
+                            <a href="#"> Ahmed abdelkader salim</a>
+                
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- footer End -->
+    
+        <!-- Back to top -->
+        <a id="back-to-top">↑</a>
+        <!-- script js -->
+        <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
